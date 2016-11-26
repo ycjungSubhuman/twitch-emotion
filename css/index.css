@@ -1,0 +1,25 @@
+html, body {
+	height: 100%;
+	width: 100%;
+}
+
+.wrapper {
+	width: 100%;
+	min-height: 100%;
+}
+.wrapper-twitch {
+	float: left;
+	width: 100%;
+	min-height: 60%;
+}
+.wrapper-metadata {
+	float: left;
+	width: 100%;
+	height: 40%;
+}
+.video {
+}
+.chat {
+}
+.metadataview {
+}
