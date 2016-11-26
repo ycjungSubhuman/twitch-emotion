@@ -1,10 +1,10 @@
 const T = {
 	init: function() {
 		Twitch.init({clientId: 'a6he265cackgwqtc89gzqfivu5yn3n6'}, function(error, status) {
-			if(!status.authenticated) {
-				console.log(status.authenticated);
-				_request_auth();
-			}
+			if(error) console.log(error);
+		});
+		$('#login').click(function() {
+			_request_auth();
 		});
 	},
 };
