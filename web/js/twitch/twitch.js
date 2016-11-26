@@ -4,7 +4,6 @@ const T = {
 			if(error) console.log(error);
 			if(status.authenticated) {
 				$('#login').hide();
-				get_video("subhuman22");
 			}
 		});
 		$('#login').click(function() {
@@ -20,11 +19,4 @@ function _request_auth() {
 }
 
 function get_video(channel) {
-	var options = {
-		width: 854,
-		height: 480,
-		channel: channel,
-	};
-	var player = new Twitch.Player("video", options);
-	player.setVolume(0.5);
 }
