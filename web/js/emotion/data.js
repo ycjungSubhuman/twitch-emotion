@@ -9,7 +9,7 @@ const color_happiness = "#14B866"; // Green
 const color_sadness = "#0E9DD9"; // Blue
 const color_surprise = "#EF9F0F"; // Orange
 
-var noise = 0.1;
+var noise = 0.05;
 
 var dummy_data = {
     viewers: 10,
