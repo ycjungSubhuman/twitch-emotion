@@ -3,13 +3,11 @@ const T = {
 		Twitch.init({clientId: 'a6he265cackgwqtc89gzqfivu5yn3n6'}, function(error, status) {
 			if(error) console.log(error);
 			if(status.authenticated) {
+                                $('#twitch_wrapper').show();
+                                $('#metadata_wrapper').show();
+                                $('#login_request').hide();
 				$('#login').hide();
 			}
-                        else {
-                                $('#twitch_wrapper').hide();
-                                $('#metadata__wrapper').hide();
-                                $('#login_request').show();
-                        }
 		});
 		$('#login').click(function() {
 			_request_auth();
