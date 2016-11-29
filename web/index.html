@@ -3,38 +3,51 @@
 <head>
     <meta charset="utf-8" />
     <title>TwitchEmotion</title>
+	<link href="https://fonts.googleapis.com/css?family=Bungee+Inline|Open+Sans" rel="stylesheet">
     <link rel='stylesheet' href="css/index.css" />
 </head>
 <body>
-	<div id="wrapper" class="wrapper">
-		<div id="menubar" class="menu">
-			<button id="login">Login</button>
-			<button id="snapshot">Take Snapshot</button>
+	<div id="wrapper" class="container theme-showcase">
+		<div class="title-wrapper">
+		<div>
+			<div class="logo-twitch">
+				<svg class="svg-logo_twitch" height="32px" version="1.1" width="94px">
+					<path clip-rule="evenodd" d="M88,5h-6V0h-9l-6,5h-5.5L59,7.5V5h-5V0H36v5H16l-5-5H0v22l5,5.25L14,32h6v-1.5l3,1.5h12l2-3l1,3h7v-3l3,3h8l0.5-3l2.5,3h10l3-3v3h4l3-3v3h7l7-6V10L88,5z M13,13H8v6h5v6H6l-4-4V2h6v5h5V13z M36,21.5L32.5,25H15V7h6v12h2V7h6v12h2V7h5V21.5z M44,25h-6V7h6V25z M44,5h-6V2h6V5z M57,13h-5v6h5v6h-7l-4-4V2h6v5h5V13z M72,13h-7v6h7v6h-9l-4-4V11l4-4h9V13z M91,25h-6V13h-5v12h-6V2h6v5h7l4,4V25z" fill-rule="evenodd"></path>
+				</svg>
+			</div>
+			<div class="title"><h3>Emotion</h3></div>
 		</div>
-        <div id="login_request">
-            Please Log In
+		</div>
+        <div id="login_request" class="title-wrapper title-wrapper-login">
+            <h2>Log In</h2>
+            <p>To experience a Twitch experience with emotion features, please login.</p>
+			<button id="login" class="btn">Login</button>
         </div>
-        <div id="test_capture"></div>
-		<div id="twitch_wrapper" class="wrapper-twitch" hidden>
-			<div id="video" class="video">
-			<iframe
-		        src="http://player.twitch.tv/?channel=subhuman22"
-		        frameborder="0"
-		        scrolling="no"
-		        allowfullscreen="true">
-		    </iframe>
-			</div>
-			<div id="chat" class="chat">
-			<iframe frameborder="0"
-				scrolling="no"
-				id="chat_embed"
-				height="400px"
-				src="http://www.twitch.tv/subhuman22/chat">
-			</iframe>
+        <div id="test_capture" hidden></div>
+		<button id="snapshot" class="btn">Take Snapshot</button>
+		<div id="twitch_wrapper" class="wrapper-twitch">
+			<div class="wrapper-twitch-inner">
+				<div id="video" class="video">
+				<iframe
+			        src="http://player.twitch.tv/?channel=subhuman22"
+			        class="video-iframe"
+			        frameborder="0"
+			        scrolling="no"
+			        allowfullscreen="true">
+			    </iframe>
+				</div>
+				<div id="chat" class="chat">
+				<iframe frameborder="0"
+			        class="chat-iframe"
+					scrolling="no"
+					id="chat_embed"
+					src="http://www.twitch.tv/subhuman22/chat">
+				</iframe>
 
+				</div>
 			</div>
 		</div>
-		<div id="metadata_wrapper" class="wrapper-metadata" hidden>
+		<div id="metadata_wrapper" class="wrapper-metadata">
 			<div id="counts" class="counts">
 			COUNTS STUB
 			</div>
