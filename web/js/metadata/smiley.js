@@ -16,7 +16,16 @@ function step() {
 	emotionIntensity = get_dominating_value();
 	
 	dummy_update_data();
+	
 	var data = get_emotion_data();
 	img.style.transform = "scale(" + (emotionIntensity + 1) / 2 + ", " + (emotionIntensity + 1) / 2 + ")";
+	
+	// Update user count
+	var number = document.getElementById('userCount');
+	number.innerHTML = dummy_data.viewers;
+	
+	// Update graph
+	graph_step();
+	
 	window.requestAnimationFrame(step);
 }
