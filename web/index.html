@@ -7,12 +7,17 @@
 </head>
 <body>
 	<div id="wrapper" class="wrapper">
+
+		<div id="camera" class="camera">
+		</div>
 		<div id="menubar" class="menu">
 			<button id="login">Login</button>
+			<button id="snapshot">Take Snapshot</button>
 		</div>
-                <div id="login_request">
-                    Please Log In
-                </div>
+        <div id="login_request">
+            Please Log In
+        </div>
+        <div id="test_capture"></div>
 		<div id="twitch_wrapper" class="wrapper-twitch" hidden>
 			<div id="video" class="video">
 			<iframe
@@ -29,7 +34,8 @@
 				height="400px"
 				src="http://www.twitch.tv/subhuman22/chat">
 			</iframe>
-		</div>
+
+			</div>
 		</div>
 		<div id="metadata_wrapper" class="wrapper-metadata" hidden>
 			<div id="counts" class="counts">
@@ -39,14 +45,14 @@
 			GRAPHS STUB
 			</div>
 			<div id="smiley" class="smiley">
-				<img src="img.png" />
 			SMILEY STUB
 			</div>
 		</div>
 	</div>
 	<script src="https://code.jquery.com/jquery.min.js"></script>
-	<script src= "http://player.twitch.tv/js/embed/v1.js"></script>
 	<script src="lib/twitch.js"></script>
+	<script src="lib/webcam.min.js"></script>
+	<script src="js/device/cam.js"></script>
 	<script src="js/twitch/twitch.js"></script>
 	<script src="js/index.js"></script>
 	<script src="js/emotion/data.js"></script>

@@ -19,6 +19,10 @@ html, body {
 }
 .video {
 }
+.camera {
+	width: 320px;
+	height: 240px;
+}
 .chat {
 }
 .metadataview {
