@@ -3,23 +3,28 @@ const Cam = {
 		Webcam.attach('#camera');	
 		$('#snapshot').click(function() {
 			Webcam.snap(function(data_uri) {
+				console.log(data_uri);
 				var img = document.createElement('img');
 				img.setAttribute("src", data_uri);
 				document.querySelector('#test_capture').appendChild(img);
 
 				var data = dataURItoBlob(data_uri);
-				$.ajax({
+				var a = $.ajax({
 					type: 'POST',
-					headers: {
-						'Content-Type': 'blob',
-						'Ocp-Apim-Subscription-Key': '39d48e5981694d35aba599b8a653c5f6',
+					processData: false,
+					beforeSend: function(xhr) {
+						xhr.setRequestHeader('Content-Type', 'application/octet-stream');
+						xhr.setRequestHeader('Ocp-Apim-Subscription-Key', '39d48e5981694d35aba599b8a653c5f6');
 					},
 					url: 'https://api.projectoxford.ai/emotion/v1.0/recognize',
-					content_type: data,
+					data: data,
 					success: function(result) {
-						console.log(result);
+						var obj = eval(result.responseText);
+						var emotion = obj.scores;
+						updateEmotion(emotion);
 					}
 				});
+				console.log(a);
 			});
 		});
 	}

@@ -13,6 +13,16 @@ var dummy_data = {
     },
 }
 
+function updateEmotion(emotion) {
+  console.log(emotion);
+  /* you have emotion data like
+   * {
+   *   anger: 0.001,
+       ....
+     }
+   */
+}
+
 function get_emotion_data() {
     return dummy_data;
 }
