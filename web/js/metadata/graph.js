@@ -15,13 +15,13 @@ var chart = null;
 function graph_init() {
 	while (historyCount < historySize) {
 		
-		emotions_anger[historyCount % historySize] = {x: historyCount, y: 0};
-		emotions_contempt[historyCount % historySize] = {x: historyCount, y: 0};
-		emotions_disgust[historyCount % historySize] = {x: historyCount, y: 0};
-		emotions_fear[historyCount % historySize] = {x: historyCount, y: 0};
-		emotions_happiness[historyCount % historySize] = {x: historyCount, y: 0};
-		emotions_sadness[historyCount % historySize] = {x: historyCount, y: 0};
-		emotions_surprise[historyCount % historySize] = {x: historyCount, y: 0};
+		emotions_anger[historyCount] = {x: historyCount, y: 0};
+		emotions_contempt[historyCount] = {x: historyCount, y: 0};
+		emotions_disgust[historyCount] = {x: historyCount, y: 0};
+		emotions_fear[historyCount] = {x: historyCount, y: 0};
+		emotions_happiness[historyCount] = {x: historyCount, y: 0};
+		emotions_sadness[historyCount] = {x: historyCount, y: 0};
+		emotions_surprise[historyCount] = {x: historyCount, y: 0};
 		
 		historyCount++;
 	}
@@ -44,17 +44,28 @@ function graph_init() {
 }
 
 function graph_step() {
-
-	emotions_anger[historyCount % historySize] = {x: historyCount, y: dummy_data.average_emotion.anger};
-	emotions_contempt[historyCount % historySize] = {x: historyCount, y: dummy_data.average_emotion.contempt};
-	emotions_disgust[historyCount % historySize] = {x: historyCount, y: dummy_data.average_emotion.disgust};
-	emotions_fear[historyCount % historySize] = {x: historyCount, y: dummy_data.average_emotion.fear};
-	emotions_happiness[historyCount % historySize] = {x: historyCount, y: dummy_data.average_emotion.happiness};
-	emotions_sadness[historyCount % historySize] = {x: historyCount, y: dummy_data.average_emotion.sadness};
-	emotions_surprise[historyCount % historySize] = {x: historyCount, y: dummy_data.average_emotion.surprise};
+	
+	emotions_anger.push({x: historyCount, y: dummy_data.average_emotion.anger});
+	emotions_contempt.push({x: historyCount, y: dummy_data.average_emotion.contempt});
+	emotions_disgust.push({x: historyCount, y: dummy_data.average_emotion.disgust});
+	emotions_fear.push({x: historyCount, y: dummy_data.average_emotion.fear});
+	emotions_happiness.push({x: historyCount, y: dummy_data.average_emotion.happiness});
+	emotions_sadness.push({x: historyCount, y: dummy_data.average_emotion.sadness});
+	emotions_surprise.push({x: historyCount, y: dummy_data.average_emotion.surprise});
 	
 	historyCount++;
 	
-	if(chart != null)
-	chart.render();
+	if(chart != null) {
+		chart.render();
+		
+		if (emotions_anger.length > historySize) {
+			emotions_anger.shift();
+			emotions_contempt.shift();
+			emotions_disgust.shift();
+			emotions_fear.shift();
+			emotions_happiness.shift();
+			emotions_sadness.shift();
+			emotions_surprise.shift();
+		}
+	}
 }
