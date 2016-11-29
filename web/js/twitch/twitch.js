@@ -18,5 +18,3 @@ function _request_auth() {
 	});
 }
 
-function get_video(channel) {
-}
