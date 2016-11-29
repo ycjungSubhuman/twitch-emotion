@@ -54,13 +54,13 @@ function get_dominating_emotion() {
 function dummy_update_data() {
     dummy_data.viewers += 1;
 	
-    dummy_data.average_emotion.anger += Math.random()*noise-noise*0.5;
-    dummy_data.average_emotion.contempt += Math.random()*noise-noise*0.5;
-    dummy_data.average_emotion.disgust += Math.random()*noise-noise*0.5;
-    dummy_data.average_emotion.fear += Math.random()*noise-noise*0.5;
-    dummy_data.average_emotion.happiness += Math.random()*noise-noise*0.5;
-    dummy_data.average_emotion.sadness += Math.random()*noise-noise*0.5;
-    dummy_data.average_emotion.surprise += Math.random()*noise-noise*0.5;
+    dummy_data.average_emotion.anger += Math.random()*noise*2-noise;
+    dummy_data.average_emotion.contempt += Math.random()*noise*2-noise;
+    dummy_data.average_emotion.disgust += Math.random()*noise*2-noise;
+    dummy_data.average_emotion.fear += Math.random()*noise*2-noise;
+    dummy_data.average_emotion.happiness += Math.random()*noise*2-noise;
+    dummy_data.average_emotion.sadness += Math.random()*noise*2-noise;
+    dummy_data.average_emotion.surprise += Math.random()*noise*2-noise;
 	
 	if (dummy_data.average_emotion.anger < 0) {
 		dummy_data.average_emotion.anger += noise * 2

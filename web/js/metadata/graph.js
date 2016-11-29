@@ -31,6 +31,10 @@ function graph_init() {
 		//title:{
 		//text: "Earthquakes - per month"
 		//},
+		axisY:{
+			minimum: 0,
+			maximum: 1,
+		},
 		data: [
 		{type: "line", markerType: "none", lineThickness: "2", color: color_anger, dataPoints: emotions_anger},
 		{type: "line", markerType: "none", lineThickness: "2", color: color_contempt, dataPoints: emotions_contempt},
