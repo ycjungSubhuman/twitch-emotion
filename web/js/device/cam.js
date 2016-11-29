@@ -3,7 +3,6 @@ const Cam = {
 		Webcam.attach('#camera');	
 		$('#snapshot').click(function() {
 			Webcam.snap(function(data_uri) {
-				console.log(data_uri);
 				var img = document.createElement('img');
 				img.setAttribute("src", data_uri);
 				document.querySelector('#test_capture').appendChild(img);
@@ -19,12 +18,9 @@ const Cam = {
 					url: 'https://api.projectoxford.ai/emotion/v1.0/recognize',
 					data: data,
 					success: function(result) {
-						var obj = eval(result.responseText);
-						var emotion = obj.scores;
-						updateEmotion(emotion);
+						updateEmotion(result[0].scores);
 					}
 				});
-				console.log(a);
 			});
 		});
 	}
