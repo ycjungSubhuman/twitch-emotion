@@ -1,1 +1,2 @@
 //control '#graph'
+//use canvas
