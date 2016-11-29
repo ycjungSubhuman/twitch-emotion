@@ -5,6 +5,11 @@ const T = {
 			if(status.authenticated) {
 				$('#login').hide();
 			}
+                        else {
+                                $('#twitch_wrapper').hide();
+                                $('#metadata__wrapper').hide();
+                                $('#login_request').show();
+                        }
 		});
 		$('#login').click(function() {
 			_request_auth();
