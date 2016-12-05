@@ -44,8 +44,10 @@ body {
 	color: #ffffff;
 }
 #snapshot {
-	display: block;
-	margin: auto;
+	position: fixed;
+	left: 0;
+	z-index: 999;
+	bottom: 0;
 }
 .btn:hover {
 	background-color: #dddddd;
@@ -54,45 +56,121 @@ body {
 	color: #ffffff;
 }
 
-.wrapper {
-}
-.wrapper-twitch {
-	margin-top: 50px;
-	margin-bottom: 50px;
-	margin-left: 10px;
-	margin-right: 30px;
-	padding-bottom: 40px;
-	background-color: #dfdfdf;
-	border-radius: 10px;
-	box-shadow: 20px 20px 0px #111111;
-	height: 720px;
-}
-.wrapper-metadata {
-}
+@media screen and  (min-width: 1024px) {
+	.wrapper-twitch {
+		margin-top: 30px;
+		margin-bottom: 30px;
+		margin-left: 10px;
+		margin-right: 30px;
+		padding-bottom: 40px;
+		background-color: #dfdfdf;
+		border-radius: 10px;
+		box-shadow: 20px 20px 0px #111111;
+		height: 480px;
+	}
 
-.wrapper-twitch-inner{
-	margin: auto;
-	width: 90%;
-	height: 100%;
-	padding: 20px;
+	.wrapper-twitch-inner{
+		margin: auto;
+		width: 90%;
+		height: 100%;
+		padding: 20px;
+	}
+	.video{
+		display: inline-block;
+		width: 70%;
+		height: 100%;
+		margin-right: 10px;
+	}
+	.chat{
+		display: inline-block;
+		height: 100%;
+	}
+	.video-iframe {
+		width: 100%;
+		height: 100%;
+	}
+	.chat-iframe {
+		width: 100%;
+		height: 100%;
+	}
+	.wrapper-metadata {
+		margin-top: 0px;
+		margin-bottom: 50px;
+		margin-left: 10px;
+		margin-right: 30px;
+		padding-bottom: 40px;
+		background-color: #dfdfdf;
+		border-radius: 10px;
+		box-shadow: 20px 20px 0px #111111;
+		height: 240px;
+	}
+	.graph {
+		display: inline-block;
+		margin-left: 10px;
+		width: 50%;
+		height: 100%;
+	}
+	.smiley {
+		display: inline-block;
+	}
 }
-.video{
-	display: inline-block;
-	width: 70%;
-	height: 100%;
-	margin-right: 10px;
-}
-.chat{
-	display: inline-block;
-	height: 100%;
-}
-.video-iframe {
-	width: 100%;
-	height: 100%;
-}
-.chat-iframe {
-	width: 100%;
-	height: 100%;
+@media screen and  (max-width: 1024px) {
+	.wrapper-twitch {
+		margin-top: 50px;
+		margin-bottom: 50px;
+		margin-left: 10px;
+		margin-right: 30px;
+		padding-bottom: 40px;
+		background-color: #dfdfdf;
+		border-radius: 10px;
+		box-shadow: 20px 20px 0px #111111;
+		height: 360px;
+	}
+
+	.wrapper-twitch-inner{
+		margin: auto;
+		width: 90%;
+		height: 100%;
+		padding: 20px;
+	}
+	.video{
+		display: inline-block;
+		width: 60%;
+		height: 100%;
+		margin-right: 10px;
+	}
+	.chat{
+		display: inline-block;
+		height: 100%;
+	}
+	.video-iframe {
+		width: 100%;
+		height: 100%;
+	}
+	.chat-iframe {
+		width: 100%;
+		height: 100%;
+	}
+	.wrapper-metadata {
+		margin-top: 0px;
+		margin-bottom: 50px;
+		margin-left: 10px;
+		margin-right: 30px;
+		padding-bottom: 40px;
+		background-color: #dfdfdf;
+		border-radius: 10px;
+		box-shadow: 20px 20px 0px #111111;
+		height: 240px;
+	}
+	.graph {
+		display: inline-block;
+		margin-left: 10px;
+		width: 50%;
+		height: 100%;
+	}
+	.smiley {
+		display: inline-block;
+	}
 }
 .camera {
 	z-index: 999;
@@ -112,5 +190,4 @@ body {
 	right: 0px;
 	bottom: 0px;
 }
-.metadataview {
-}
+
