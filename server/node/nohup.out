@@ -1,0 +1,36 @@
+wow
+{ anger: 0.00393754151,
+  contempt: 0.0180718843,
+  disgust: 0.008551726,
+  fear: 0.00526689272,
+  happiness: 0.0101249451,
+  neutral: 0.8087618,
+  sadness: 0.113983937,
+  surprise: 0.0313012972 }
+wow
+{ anger: 0.0005262266,
+  contempt: 0.09546725,
+  disgust: 0.00390137,
+  fear: 0.000435143156,
+  happiness: 0.104441039,
+  neutral: 0.637985468,
+  sadness: 0.155482888,
+  surprise: 0.001760608 }
+wow
+{ anger: 0.00006971656,
+  contempt: 0.007137481,
+  disgust: 0.000751774351,
+  fear: 0.000157642688,
+  happiness: 0.002570481,
+  neutral: 0.9658117,
+  sadness: 0.0175906252,
+  surprise: 0.00591052463 }
+wow
+{ anger: 0.00137085735,
+  contempt: 0.007044517,
+  disgust: 0.002088885,
+  fear: 0.0000439656469,
+  happiness: 0.000227277924,
+  neutral: 0.95901227,
+  sadness: 0.02898511,
+  surprise: 0.00122710713 }
