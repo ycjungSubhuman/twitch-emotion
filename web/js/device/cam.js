@@ -1,29 +1,29 @@
 const Cam = {
-	init: function() {
-		Webcam.attach('#camera');	
-		$('#snapshot').click(function() {
-			Webcam.snap(function(data_uri) {
-				var img = document.createElement('img');
-				img.setAttribute("src", data_uri);
-				document.querySelector('#test_capture').appendChild(img);
+  init: function() {
+    Webcam.attach('#camera'); 
+    $('#snapshot').click(function() {
+      Webcam.snap(function(data_uri) {
+        var img = document.createElement('img');
+        img.setAttribute("src", data_uri);
+        document.querySelector('#test_capture').appendChild(img);
 
-				var data = dataURItoBlob(data_uri);
-				var a = $.ajax({
-					type: 'POST',
-					processData: false,
-					beforeSend: function(xhr) {
-						xhr.setRequestHeader('Content-Type', 'application/octet-stream');
-						xhr.setRequestHeader('Ocp-Apim-Subscription-Key', '39d48e5981694d35aba599b8a653c5f6');
-					},
-					url: 'https://api.projectoxford.ai/emotion/v1.0/recognize',
-					data: data,
-					success: function(result) {
-						updateEmotion(result[0].scores);
-					}
-				});
-			});
-		});
-	}
+        var data = dataURItoBlob(data_uri);
+        var a = $.ajax({
+          type: 'POST',
+          processData: false,
+          beforeSend: function(xhr) {
+            xhr.setRequestHeader('Content-Type', 'application/octet-stream');
+            xhr.setRequestHeader('Ocp-Apim-Subscription-Key', '39d48e5981694d35aba599b8a653c5f6');
+          },
+          url: 'https://api.projectoxford.ai/emotion/v1.0/recognize',
+          data: data,
+          success: function(result) {
+            updateEmotion(result[0].scores);
+          }
+        });
+      });
+    });
+  }
 }
 
 function dataURItoBlob(dataURI) {

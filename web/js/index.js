@@ -1,7 +1,7 @@
 window.onload = function() {
-	T.init();
-	Cam.init();
-	graph_init();
-	smiley_init();
-	updateEmotion();
+  T.init();
+  Cam.init();
+  graph_init();
+  smiley_init();
+  updateEmotion();
 };

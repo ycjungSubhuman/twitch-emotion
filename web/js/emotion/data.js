@@ -23,25 +23,25 @@ ii = {
 var viewer_count = 0;
 
 function get_dominating_value() {
-	var maxValue = Math.max(
-		ii.anger, 
-		ii.contempt, 
-		ii.disgust, 
-		ii.fear, 
-		ii.happiness, 
-		ii.sadness, 
-		ii.surprise);
-	return maxValue;
+  var maxValue = Math.max(
+    ii.anger, 
+    ii.contempt, 
+    ii.disgust, 
+    ii.fear, 
+    ii.happiness, 
+    ii.sadness, 
+    ii.surprise);
+  return maxValue;
 }
 
 function get_dominating_emotion() {
-	maxValue = get_dominating_value();
-	
-	for (var emotion in ii) {
-		if (maxValue == ii[emotion]) {
-			return emotion;
-		}
-	}
+  maxValue = get_dominating_value();
+  
+  for (var emotion in ii) {
+    if (maxValue == ii[emotion]) {
+      return emotion;
+    }
+  }
 }
 
 function updateEmotion(emotion) {
@@ -50,18 +50,18 @@ function updateEmotion(emotion) {
   setInterval(function() {
 
 
-  	var socket = io.connect('49.142.114.16:8888');
-  	socket.on('news', function (data) {
-  		socket.emit('my other event', emotion);
-  	});            
+    var socket = io.connect('49.142.114.16:8888');
+    socket.on('news', function (data) {
+      socket.emit('my other event', emotion);
+    });            
 
 
-  	socket.on('get_emotion', function (data) {
+    socket.on('get_emotion', function (data) {
 
-  		ii = data;
-  		console.log('ss');
-  		console.log(ii);
-  	});                 
+      ii = data;
+      console.log('ss');
+      console.log(ii);
+    });                 
   }, sec);
 
 }
@@ -69,6 +69,6 @@ function updateEmotion(emotion) {
 
 
 function get_emotion_data() {
-	return ii;
+  return ii;
 }
 

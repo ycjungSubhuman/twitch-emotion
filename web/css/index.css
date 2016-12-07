@@ -1,193 +1,193 @@
 body {
-	height: 100%;
-	width: 100%;
-	background-color: #433f4a;
-	font-family: 'Open Sans', sans-serif; 
-	color: #cbc8d0;
-	overflow-x: hidden;
+  height: 100%;
+  width: 100%;
+  background-color: #433f4a;
+  font-family: 'Open Sans', sans-serif; 
+  color: #cbc8d0;
+  overflow-x: hidden;
 }
 .login-request{
 }
 .title-wrapper {
-	margin-top: 50px;
-	margin-bottom: 50px;
-	margin-left: 10px;
-	margin-right: 30px;
-	background-color: #dfdfdf;
-	border-radius: 10px;
-	box-shadow: 20px 20px 0px #111111;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 10px;
+  margin-right: 30px;
+  background-color: #dfdfdf;
+  border-radius: 10px;
+  box-shadow: 20px 20px 0px #111111;
 }
 .logo-twitch {
-	margin-top: 10px;
-	margin-left: 10px;
-	float: left;
-	position: relative;
-	bottom: 0px;
+  margin-top: 10px;
+  margin-left: 10px;
+  float: left;
+  position: relative;
+  bottom: 0px;
 }
 .title {
-	position:relative;
-	font-size: 40pt;
-	left: 30px;
-	font-family: 'Bungee Inline', cursive;
-	color: #433f4a;
+  position:relative;
+  font-size: 40pt;
+  left: 30px;
+  font-family: 'Bungee Inline', cursive;
+  color: #433f4a;
 }
 
 .title-wrapper-login {
-	padding: 10px;
-	background-color: #6441a4;
+  padding: 10px;
+  background-color: #6441a4;
 }
 
 .btn {
-	background-color: #333333;
-	font-family: 'Bungee Inline', cursive;
-	font-size: 20pt;
-	color: #ffffff;
+  background-color: #333333;
+  font-family: 'Bungee Inline', cursive;
+  font-size: 20pt;
+  color: #ffffff;
 }
 #snapshot {
-	position: fixed;
-	left: 0;
-	z-index: 999;
-	bottom: 0;
+  position: fixed;
+  left: 0;
+  z-index: 999;
+  bottom: 0;
 }
 .btn:hover {
-	background-color: #dddddd;
-	font-family: 'Bungee Inline', cursive;
-	font-size: 20pt;
-	color: #ffffff;
+  background-color: #dddddd;
+  font-family: 'Bungee Inline', cursive;
+  font-size: 20pt;
+  color: #ffffff;
 }
 
 @media screen and  (min-width: 1024px) {
-	.wrapper-twitch {
-		margin-top: 30px;
-		margin-bottom: 30px;
-		margin-left: 10px;
-		margin-right: 30px;
-		padding-bottom: 40px;
-		background-color: #dfdfdf;
-		border-radius: 10px;
-		box-shadow: 20px 20px 0px #111111;
-		height: 480px;
-	}
+  .wrapper-twitch {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    margin-right: 30px;
+    padding-bottom: 40px;
+    background-color: #dfdfdf;
+    border-radius: 10px;
+    box-shadow: 20px 20px 0px #111111;
+    height: 480px;
+  }
 
-	.wrapper-twitch-inner{
-		margin: auto;
-		width: 90%;
-		height: 100%;
-		padding: 20px;
-	}
-	.video{
-		display: inline-block;
-		width: 70%;
-		height: 100%;
-		margin-right: 10px;
-	}
-	.chat{
-		display: inline-block;
-		height: 100%;
-	}
-	.video-iframe {
-		width: 100%;
-		height: 100%;
-	}
-	.chat-iframe {
-		width: 100%;
-		height: 100%;
-	}
-	.wrapper-metadata {
-		margin-top: 0px;
-		margin-bottom: 50px;
-		margin-left: 10px;
-		margin-right: 30px;
-		padding-bottom: 40px;
-		background-color: #dfdfdf;
-		border-radius: 10px;
-		box-shadow: 20px 20px 0px #111111;
-		height: 240px;
-	}
-	.graph {
-		display: inline-block;
-		margin-left: 10px;
-		width: 50%;
-		height: 100%;
-	}
-	.smiley {
-		display: inline-block;
-	}
+  .wrapper-twitch-inner{
+    margin: auto;
+    width: 90%;
+    height: 100%;
+    padding: 20px;
+  }
+  .video{
+    display: inline-block;
+    width: 70%;
+    height: 100%;
+    margin-right: 10px;
+  }
+  .chat{
+    display: inline-block;
+    height: 100%;
+  }
+  .video-iframe {
+    width: 100%;
+    height: 100%;
+  }
+  .chat-iframe {
+    width: 100%;
+    height: 100%;
+  }
+  .wrapper-metadata {
+    margin-top: 0px;
+    margin-bottom: 50px;
+    margin-left: 10px;
+    margin-right: 30px;
+    padding-bottom: 40px;
+    background-color: #dfdfdf;
+    border-radius: 10px;
+    box-shadow: 20px 20px 0px #111111;
+    height: 240px;
+  }
+  .graph {
+    display: inline-block;
+    margin-left: 10px;
+    width: 50%;
+    height: 100%;
+  }
+  .smiley {
+    display: inline-block;
+  }
 }
 @media screen and  (max-width: 1024px) {
-	.wrapper-twitch {
-		margin-top: 50px;
-		margin-bottom: 50px;
-		margin-left: 10px;
-		margin-right: 30px;
-		padding-bottom: 40px;
-		background-color: #dfdfdf;
-		border-radius: 10px;
-		box-shadow: 20px 20px 0px #111111;
-		height: 360px;
-	}
+  .wrapper-twitch {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 10px;
+    margin-right: 30px;
+    padding-bottom: 40px;
+    background-color: #dfdfdf;
+    border-radius: 10px;
+    box-shadow: 20px 20px 0px #111111;
+    height: 360px;
+  }
 
-	.wrapper-twitch-inner{
-		margin: auto;
-		width: 90%;
-		height: 100%;
-		padding: 20px;
-	}
-	.video{
-		display: inline-block;
-		width: 60%;
-		height: 100%;
-		margin-right: 10px;
-	}
-	.chat{
-		display: inline-block;
-		height: 100%;
-	}
-	.video-iframe {
-		width: 100%;
-		height: 100%;
-	}
-	.chat-iframe {
-		width: 100%;
-		height: 100%;
-	}
-	.wrapper-metadata {
-		margin-top: 0px;
-		margin-bottom: 50px;
-		margin-left: 10px;
-		margin-right: 30px;
-		padding-bottom: 40px;
-		background-color: #dfdfdf;
-		border-radius: 10px;
-		box-shadow: 20px 20px 0px #111111;
-		height: 240px;
-	}
-	.graph {
-		display: inline-block;
-		margin-left: 10px;
-		width: 50%;
-		height: 100%;
-	}
-	.smiley {
-		display: inline-block;
-	}
+  .wrapper-twitch-inner{
+    margin: auto;
+    width: 90%;
+    height: 100%;
+    padding: 20px;
+  }
+  .video{
+    display: inline-block;
+    width: 60%;
+    height: 100%;
+    margin-right: 10px;
+  }
+  .chat{
+    display: inline-block;
+    height: 100%;
+  }
+  .video-iframe {
+    width: 100%;
+    height: 100%;
+  }
+  .chat-iframe {
+    width: 100%;
+    height: 100%;
+  }
+  .wrapper-metadata {
+    margin-top: 0px;
+    margin-bottom: 50px;
+    margin-left: 10px;
+    margin-right: 30px;
+    padding-bottom: 40px;
+    background-color: #dfdfdf;
+    border-radius: 10px;
+    box-shadow: 20px 20px 0px #111111;
+    height: 240px;
+  }
+  .graph {
+    display: inline-block;
+    margin-left: 10px;
+    width: 50%;
+    height: 100%;
+  }
+  .smiley {
+    display: inline-block;
+  }
 }
 .camera {
-	z-index: 999;
-	position: fixed;
-	width: 320px;
-	opacity: 0.4;
-	height: 240px;
-	right: 0px;
-	bottom: 0px;
+  z-index: 999;
+  position: fixed;
+  width: 320px;
+  opacity: 0.4;
+  height: 240px;
+  right: 0px;
+  bottom: 0px;
 }
 .camera:hover {
-	position: fixed;
-	z-index: 999;
-	opacity: 0;
-	width: 320px;
-	height: 240px;
-	right: 0px;
-	bottom: 0px;
+  position: fixed;
+  z-index: 999;
+  opacity: 0;
+  width: 320px;
+  height: 240px;
+  right: 0px;
+  bottom: 0px;
 }
 
