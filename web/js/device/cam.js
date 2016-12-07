@@ -18,6 +18,7 @@ const Cam = {
           url: 'https://api.projectoxford.ai/emotion/v1.0/recognize',
           data: data,
           success: function(result) {
+            console.log(result);
             updateEmotion(result[0].scores);
           }
         });

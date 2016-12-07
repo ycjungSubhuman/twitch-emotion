@@ -45,24 +45,19 @@ function get_dominating_emotion() {
 }
 
 function updateEmotion(emotion) {
-  console.log(emotion);
-  var sec = 1000/3; // 1/3 ms
-  setInterval(function() {
-    var socket = io.connect('49.142.114.16:8888');
+	console.log(emotion);
+	var socket = io.connect('itrustgreen.ze.am:8888');
 
-    socket.on('news', function (data) {
-      socket.emit('my other event', emotion);
-    });            
-
-    socket.on('get_emotion', function (data) {
-      ii = data;
-      console.log('ss');
-      console.log(ii);
-      ui_step();
-    });                 
-  }, sec);
+	socket.on('news', function (data) {
+		socket.emit('my other event', emotion);
+	});            
+	socket.on('get_emotion', function (data) {
+		ii = data;
+		console.log('ss');
+		console.log(ii);
+		ui_step();
+	});                 
 }
-
 
 
 function get_emotion_data() {

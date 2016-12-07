@@ -3,5 +3,4 @@ window.onload = function() {
   Cam.init();
   graph_init();
   smiley_init();
-  updateEmotion();
 };
