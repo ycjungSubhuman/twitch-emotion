@@ -48,22 +48,19 @@ function updateEmotion(emotion) {
   console.log(emotion);
   var sec = 1000/3; // 1/3 ms
   setInterval(function() {
-
-
     var socket = io.connect('49.142.114.16:8888');
+
     socket.on('news', function (data) {
       socket.emit('my other event', emotion);
     });            
 
-
     socket.on('get_emotion', function (data) {
-
       ii = data;
       console.log('ss');
       console.log(ii);
+      ui_step();
     });                 
   }, sec);
-
 }
 
 

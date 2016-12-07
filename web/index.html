@@ -1,14 +1,15 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1-strict.dtd">
 <html>
 <head>
-    <meta charset="utf-8" />
-    <title>TwitchEmotion</title>
-  <link href="https://fonts.googleapis.com/css?family=Bungee+Inline|Open+Sans" rel="stylesheet">
-    <link rel='stylesheet' href="css/index.css" />
+<meta charset="utf-8" />
+<title>TwitchEmotion</title>
+<link rel="stylesheet" href="css/icons.css">
+<link href="https://fonts.googleapis.com/css?family=Bungee+Inline|Open+Sans" rel="stylesheet">
+<link rel='stylesheet' href="css/index.css" />
 </head>
 <body>
-  <div id="wrapper" class="container">
-    <div class="title-wrapper">
+<div id="wrapper" class="container">
+  <div class="title-wrapper">
     <div>
       <div class="logo-twitch">
         <svg class="svg-logo_twitch" height="32px" version="1.1" width="94px">
@@ -17,57 +18,58 @@
       </div>
       <div class="title"><h3>Emotion</h3></div>
     </div>
-    </div>
-        <div id="login_request" class="title-wrapper title-wrapper-login">
-            <h2>Log In</h2>
-            <p>To experience a Twitch experience with emotion features, please login.</p>
-      <button id="login" class="btn">Login</button>
-        </div>
-        <div id="test_capture" hidden></div>
-    <div id="twitch_wrapper" class="wrapper-twitch" hidden>
-      <div class="wrapper-twitch-inner">
-        <div id="video" class="video">
+  </div>
+  <div id="login_request" class="title-wrapper title-wrapper-login">
+    <h2>Log In</h2>
+    <p>To experience a Twitch experience with emotion features, please login.</p>
+    <button id="login" class="btn">Login</button>
+  </div>
+  <div id="test_capture" hidden></div>
+  <div id="twitch_wrapper" class="wrapper-twitch" hidden>
+    <div class="wrapper-twitch-inner">
+      <div id="video" class="video">
         <iframe
-              src="http://player.twitch.tv/?channel=subhuman22"
-              class="video-iframe"
-              frameborder="0"
-              scrolling="no"
-              allowfullscreen="true">
-          </iframe>
-        </div>
-        <div id="chat" class="chat">
+          src="http://player.twitch.tv/?channel=subhuman22"
+          class="video-iframe"
+          frameborder="0"
+          scrolling="no"
+          allowfullscreen="true">
+        </iframe>
+      </div>
+      <div id="chat" class="chat">
         <iframe frameborder="0"
-              class="chat-iframe"
+          class="chat-iframe"
           scrolling="no"
           id="chat_embed"
           src="http://www.twitch.tv/subhuman22/chat">
         </iframe>
 
-        </div>
-      </div>
-    </div>
-    <div id="metadata_wrapper" class="wrapper-metadata" hidden>
-      <button id="snapshot" class="btn">Take Snapshot</button>
-      <div id="counts" class="counts">
-      </div>
-      <div id="graph" class="graph">
-      </div>
-      <div id="smiley" class="smiley">
       </div>
     </div>
   </div>
+  <div id="metadata_wrapper" class="wrapper-metadata" hidden>
+    <button id="snapshot" class="btn">Take Snapshot</button>
+    <div id="count_wrapper" class="wrapper-class">
+      <p>
+        <span class="glyphicon glyphicon-eye-open" />
+        <span id="counts" class="counts"></span>
+      </p>
+    </div>
+    <div id="graph" class="graph"></div>
+    <div id="smiley" class="smiley"></div>
+  </div>
   <div id="camera" class="camera" style="width:320px; height:240px;"/>
-  <script src="http://49.142.114.16:8888/socket.io/socket.io.js"></script>
-  <script src="https://code.jquery.com/jquery.min.js"></script>
-  <script src="lib/canvasjs.min.js"></script>
-  <script src="lib/twitch.js"></script>
-  <script src="lib/webcam.min.js"></script>
-  <script src="js/device/cam.js"></script>
-  <script src="js/twitch/twitch.js"></script>
-  <script src="js/emotion/data.js"></script>
-  <script src="js/metadata/counts.js"></script>
-  <script src="js/metadata/graph.js"></script>
-  <script src="js/metadata/smiley.js"></script>
-  <script src="js/index.js"></script>
-</body>
-</html>
+    <script src="https://cdn.socket.io/socket.io-1.4.5.js"></script>
+    <script src="https://code.jquery.com/jquery.min.js"></script>
+    <script src="lib/canvasjs.min.js"></script>
+    <script src="lib/twitch.js"></script>
+    <script src="lib/webcam.min.js"></script>
+    <script src="js/device/cam.js"></script>
+    <script src="js/twitch/twitch.js"></script>
+    <script src="js/emotion/data.js"></script>
+    <script src="js/metadata/counts.js"></script>
+    <script src="js/metadata/graph.js"></script>
+    <script src="js/metadata/smiley.js"></script>
+    <script src="js/index.js"></script>
+    </body>
+    </html>

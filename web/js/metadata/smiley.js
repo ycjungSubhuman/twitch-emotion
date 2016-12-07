@@ -7,11 +7,10 @@ function smiley_init() {
 
   var div = document.querySelector("#smiley");
   div.appendChild(img);
-  
-  step();
+  ui_step();
 }
 
-function step() {
+function ui_step() {
   img.setAttribute("src", "img/smiley_" + get_dominating_emotion() + ".png");
   emotionIntensity = get_dominating_value();
   
@@ -24,6 +23,4 @@ function step() {
   
   // Update graph
   graph_step();
-  
-  window.requestAnimationFrame(step);
 }
