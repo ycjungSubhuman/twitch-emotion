@@ -22,6 +22,7 @@ var emotions = new Object();
 emotions.anger = 0;
 emotions.contempt = 0;
 emotions.fear = 0;
+emotions.disgust = 0;
 emotions.happiness = 0;
 emotions.sadness = 0;
 emotions.surprise = 0;
@@ -90,6 +91,7 @@ function add(data)
 	emotions.fear += data.fear;
 	emotions.happiness += data.happiness;
 	emotions.sadness += data.sadness;
+	emotions.disgust += data.disgust;
 	emotions.surprise += data.surprise;
 	num++;	
 	
@@ -100,6 +102,7 @@ function add(data)
 	temp.fear = data.fear;
 	temp.happiness = data.happiness;
 	temp.sadness = data.sadness;
+	temp.disgust = data.disgust;
 	temp.surprise = data.surprise;
 
 	setTimeout(function(data){
@@ -109,9 +112,10 @@ function add(data)
 	emotions.fear -= temp.fear;
 	emotions.happiness -= temp.happiness;
 	emotions.sadness -= temp.sadness;
+	emotions.disgust -= temp.disgust;
 	emotions.surprise -= temp.surprise;
 	num--;	
-	}, 300);
+	}, 3000);
 		
 }
 

@@ -39,33 +39,30 @@ function get_dominating_emotion() {
   
   for (var emotion in ii) {
     if (maxValue == ii[emotion]) {
-      return emotion;
+      if (maxValue != 0)
+        return emotion;
+      else return undefined;
     }
   }
 }
 
+var socket = io.connect('itrustgreen.ze.am:8888');
 function updateEmotion(emotion) {
 	console.log(emotion);
-	var socket = io.connect('itrustgreen.ze.am:8888');
-
-	socket.on('news', function (data) {
-		socket.emit('my other event', emotion);
-	});            
+	socket.emit('my other event', emotion);
 }
 
 function init_fetch() {
 	setInterval(function() {
-		var socket = io.connect('itrustgreen.ze.am:8888');
-		socket.on('news', function (data) {
-			socket.emit('get_current_emotion');
-		});            
-		socket.on('get_emotion', function (data) {
-			ii = data;
-			console.log('ss');
-			console.log(ii);
-			ui_step();
-		});                 
+		socket.emit('get_current_emotion');
 	}, 1000);
+	socket.on('get_emotion', function (data) {
+		ii = data;
+		console.log('ss');
+		console.log(ii);
+		ui_step();
+	});                 
+
 }
 
 

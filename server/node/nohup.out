@@ -34,3 +34,1038 @@ wow
   neutral: 0.95901227,
   sadness: 0.02898511,
   surprise: 0.00122710713 }
+wow
+{ anger: 0.000018258901,
+  contempt: 0.0225591566,
+  disgust: 0.0002290211,
+  fear: 0.00000105925392,
+  happiness: 0.08660527,
+  neutral: 0.8800263,
+  sadness: 0.0104665281,
+  surprise: 0.0000944175263 }
+wow
+{ anger: 0.000422131852,
+  contempt: 0.0130529758,
+  disgust: 0.0009639188,
+  fear: 0.0000114069226,
+  happiness: 0.0033466022,
+  neutral: 0.9160116,
+  sadness: 0.06598856,
+  surprise: 0.000202853858 }
+wow
+{ anger: 0.002271678,
+  contempt: 0.029400235,
+  disgust: 0.002991591,
+  fear: 0.00003968161,
+  happiness: 0.00241208263,
+  neutral: 0.8967498,
+  sadness: 0.0647902,
+  surprise: 0.00134475192 }
+wow
+{ anger: 0.008344086,
+  contempt: 0.140496939,
+  disgust: 0.0110738492,
+  fear: 0.00290113548,
+  happiness: 0.0369995125,
+  neutral: 0.619186938,
+  sadness: 0.1613779,
+  surprise: 0.0196195934 }
+wow
+{ anger: 0.0019085675,
+  contempt: 0.0124248117,
+  disgust: 0.00325155887,
+  fear: 0.000184039323,
+  happiness: 0.000507399265,
+  neutral: 0.9488634,
+  sadness: 0.029476596,
+  surprise: 0.00338363787 }
+wow
+{ anger: 0.004205816,
+  contempt: 0.00882979,
+  disgust: 0.005871501,
+  fear: 0.000318103965,
+  happiness: 0.0013215004,
+  neutral: 0.9610403,
+  sadness: 0.004507558,
+  surprise: 0.013905392 }
+wow
+{ anger: 0.00213279156,
+  contempt: 0.0123649118,
+  disgust: 0.004965988,
+  fear: 0.0000213403055,
+  happiness: 0.000364744716,
+  neutral: 0.9785295,
+  sadness: 0.00109088689,
+  surprise: 0.000529849844 }
+wow
+{ anger: 0.00477499468,
+  contempt: 0.06495352,
+  disgust: 0.0256543234,
+  fear: 0.0000548672579,
+  happiness: 0.008009609,
+  neutral: 0.886413038,
+  sadness: 0.007449021,
+  surprise: 0.00269062887 }
+wow
+{ anger: 0.00418486865,
+  contempt: 0.002837579,
+  disgust: 0.00183314132,
+  fear: 0.00179734745,
+  happiness: 0.000555201,
+  neutral: 0.9234327,
+  sadness: 0.00378503557,
+  surprise: 0.0615741275 }
+wow
+{ anger: 0.001012606,
+  contempt: 0.00367421261,
+  disgust: 0.005682646,
+  fear: 0.000736545364,
+  happiness: 0.0005336944,
+  neutral: 0.92563796,
+  sadness: 0.00578459958,
+  surprise: 0.05693775 }
+wow
+{ anger: 0.000017321132,
+  contempt: 0.00009989759,
+  disgust: 0.00005962143,
+  fear: 0.000043673168,
+  happiness: 0.0000260848064,
+  neutral: 0.995066166,
+  sadness: 0.0015890355,
+  surprise: 0.00309817051 }
+wow
+{ anger: 0.000190417413,
+  contempt: 0.015303243,
+  disgust: 0.000353241485,
+  fear: 0.00000740097948,
+  happiness: 0.00392313162,
+  neutral: 0.965298831,
+  sadness: 0.0146356523,
+  surprise: 0.000288092357 }
+wow
+{ anger: 0.00140058633,
+  contempt: 0.0148379095,
+  disgust: 0.00605530431,
+  fear: 0.00007857952,
+  happiness: 0.0134293223,
+  neutral: 0.945235,
+  sadness: 0.017223293,
+  surprise: 0.00174000859 }
+wow
+{ anger: 0.0003049632,
+  contempt: 0.015931448,
+  disgust: 0.00332245929,
+  fear: 0.000189826591,
+  happiness: 0.06641238,
+  neutral: 0.8955793,
+  sadness: 0.01316857,
+  surprise: 0.00509106927 }
+wow
+{ anger: 0.0000323665881,
+  contempt: 0.000962366932,
+  disgust: 0.000153905436,
+  fear: 0.000331791845,
+  happiness: 0.0001354395,
+  neutral: 0.984175146,
+  sadness: 0.00504188426,
+  surprise: 0.009167084 }
+wow
+{ anger: 0.000188130522,
+  contempt: 0.0135366237,
+  disgust: 0.00292511121,
+  fear: 0.0002095188,
+  happiness: 0.0120817851,
+  neutral: 0.9143507,
+  sadness: 0.05402827,
+  surprise: 0.00267989235 }
+wow
+{ anger: 0.0006019236,
+  contempt: 0.04522246,
+  disgust: 0.0054607857,
+  fear: 0.00012273452,
+  happiness: 0.376193881,
+  neutral: 0.5221473,
+  sadness: 0.0488234721,
+  surprise: 0.00142743578 }
+wow
+{ anger: 0.006509146,
+  contempt: 0.015423107,
+  disgust: 0.188862815,
+  fear: 0.0002820886,
+  happiness: 0.398066938,
+  neutral: 0.362082034,
+  sadness: 0.02686287,
+  surprise: 0.0019109936 }
+wow
+{ anger: 0.00104851928,
+  contempt: 0.06990436,
+  disgust: 0.00241443049,
+  fear: 0.0005325498,
+  happiness: 0.153028235,
+  neutral: 0.703627169,
+  sadness: 0.06558063,
+  surprise: 0.00386412977 }
+wow
+{ anger: 0.00102163036,
+  contempt: 0.00620461768,
+  disgust: 0.0126593392,
+  fear: 0.000426151935,
+  happiness: 0.9087146,
+  neutral: 0.0566510931,
+  sadness: 0.0112745352,
+  surprise: 0.00304801855 }
+wow
+{ anger: 0.0008999589,
+  contempt: 0.0281243883,
+  disgust: 0.00136810238,
+  fear: 0.0000308259878,
+  happiness: 0.0143398261,
+  neutral: 0.9070784,
+  sadness: 0.0477144346,
+  surprise: 0.0004440587 }
+wow
+{ anger: 0.00189427927,
+  contempt: 0.02273197,
+  disgust: 0.0024036055,
+  fear: 0.00002921194,
+  happiness: 0.03355344,
+  neutral: 0.93051374,
+  sadness: 0.007860995,
+  surprise: 0.00101273344 }
+wow
+{ anger: 0.009943076,
+  contempt: 0.0200296342,
+  disgust: 0.0145962788,
+  fear: 0.000174085377,
+  happiness: 0.007397006,
+  neutral: 0.9267092,
+  sadness: 0.0164872147,
+  surprise: 0.0046635163 }
+wow
+{ anger: 0.00216438062,
+  contempt: 0.0176613126,
+  disgust: 0.004004055,
+  fear: 0.000115106748,
+  happiness: 0.005750721,
+  neutral: 0.9413305,
+  sadness: 0.0268068034,
+  surprise: 0.0021671236 }
+wow
+{ anger: 0.000434104179,
+  contempt: 0.0239689387,
+  disgust: 0.00212862459,
+  fear: 0.00000518092565,
+  happiness: 0.000965478539,
+  neutral: 0.9524035,
+  sadness: 0.0198515728,
+  surprise: 0.000242588314 }
+wow
+{ anger: 0.000652404,
+  contempt: 0.02910761,
+  disgust: 0.00513560371,
+  fear: 0.0000346139532,
+  happiness: 0.0030582766,
+  neutral: 0.9452706,
+  sadness: 0.0152435536,
+  surprise: 0.0014973178 }
+wow
+{ anger: 0.000134726331,
+  contempt: 0.0026304042,
+  disgust: 0.000197268266,
+  fear: 0.000009082573,
+  happiness: 0.00002390745,
+  neutral: 0.945798039,
+  sadness: 0.0510608926,
+  surprise: 0.000145710015 }
+wow
+{ anger: 0.0088661,
+  contempt: 0.04447791,
+  disgust: 0.0338705219,
+  fear: 0.000167977734,
+  happiness: 0.0004173888,
+  neutral: 0.8872478,
+  sadness: 0.0186776631,
+  surprise: 0.0062746373 }
+wow
+{ anger: 0.010936168,
+  contempt: 0.0355657637,
+  disgust: 0.00304648327,
+  fear: 0.0000297096012,
+  happiness: 0.0004887947,
+  neutral: 0.9362412,
+  sadness: 0.0134902187,
+  surprise: 0.000201668212 }
+wow
+{ anger: 0.00205188082,
+  contempt: 0.0255195033,
+  disgust: 0.0635105,
+  fear: 0.00011653328,
+  happiness: 0.225610718,
+  neutral: 0.6695174,
+  sadness: 0.005851986,
+  surprise: 0.007821456 }
+wow
+{ anger: 0.000355797529,
+  contempt: 0.0136407726,
+  disgust: 0.00176559633,
+  fear: 0.000226038785,
+  happiness: 0.0245011579,
+  neutral: 0.9444525,
+  sadness: 0.0113747064,
+  surprise: 0.003683414 }
+wow
+{ anger: 0.0005449817,
+  contempt: 0.0180972442,
+  disgust: 0.003522549,
+  fear: 0.0000844496753,
+  happiness: 0.08435418,
+  neutral: 0.82784456,
+  sadness: 0.06489531,
+  surprise: 0.0006567198 }
+wow
+{ anger: 0.00270299241,
+  contempt: 0.0147270691,
+  disgust: 0.00259904843,
+  fear: 0.0000966328662,
+  happiness: 0.01357099,
+  neutral: 0.946595967,
+  sadness: 0.0186481755,
+  surprise: 0.001059124 }
+wow
+{ anger: 0.00441125268,
+  contempt: 0.03656187,
+  disgust: 0.005731797,
+  fear: 0.000206957688,
+  happiness: 0.0251793638,
+  neutral: 0.898522556,
+  sadness: 0.02780043,
+  surprise: 0.00158576109 }
+wow
+{ anger: 0.0077730976,
+  contempt: 0.008531071,
+  disgust: 0.004639205,
+  fear: 0.00224023033,
+  happiness: 0.00033896268,
+  neutral: 0.8350992,
+  sadness: 0.136746258,
+  surprise: 0.004631977 }
+wow
+{ anger: 0.0000181431533,
+  contempt: 0.0002668391,
+  disgust: 0.000018504772,
+  fear: 0.0000380634447,
+  happiness: 0.0000108702225,
+  neutral: 0.981416047,
+  sadness: 0.000349429931,
+  surprise: 0.017882077 }
+wow
+{ anger: 0.000260566652,
+  contempt: 0.02592641,
+  disgust: 0.000881372951,
+  fear: 0.0000323453751,
+  happiness: 0.0739210248,
+  neutral: 0.871884763,
+  sadness: 0.02658686,
+  surprise: 0.0005066756 }
+wow
+{ anger: 0.000100187965,
+  contempt: 0.006736901,
+  disgust: 0.000146500111,
+  fear: 0.00000236651363,
+  happiness: 0.000379885139,
+  neutral: 0.9829075,
+  sadness: 0.009465446,
+  surprise: 0.000261259353 }
+wow
+{ anger: 0.00311051845,
+  contempt: 0.0257320385,
+  disgust: 0.008812476,
+  fear: 0.0000934888449,
+  happiness: 0.000671910064,
+  neutral: 0.926021338,
+  sadness: 0.0329867862,
+  surprise: 0.00257144612 }
+wow
+{ anger: 0.0116243744,
+  contempt: 0.173527643,
+  disgust: 0.0136487707,
+  fear: 0.000748304359,
+  happiness: 0.00326937879,
+  neutral: 0.752927661,
+  sadness: 0.00354620419,
+  surprise: 0.04070766 }
+wow
+{ anger: 0.002924349,
+  contempt: 0.02431814,
+  disgust: 0.010160489,
+  fear: 0.00008627866,
+  happiness: 0.007994332,
+  neutral: 0.9316075,
+  sadness: 0.0209355764,
+  surprise: 0.00197334634 }
+wow
+{ anger: 0.00124633883,
+  contempt: 0.03217466,
+  disgust: 0.00322957686,
+  fear: 0.0000241159269,
+  happiness: 0.004937279,
+  neutral: 0.9093127,
+  sadness: 0.04874449,
+  surprise: 0.000330801064 }
+wow
+{ anger: 0.000178506816,
+  contempt: 0.01787126,
+  disgust: 0.0007803374,
+  fear: 0.0000752973356,
+  happiness: 0.07237226,
+  neutral: 0.895654559,
+  sadness: 0.0109961759,
+  surprise: 0.00207158364 }
+wow
+{ anger: 0.000826169446,
+  contempt: 0.03947673,
+  disgust: 0.004080775,
+  fear: 0.0005289471,
+  happiness: 0.131917492,
+  neutral: 0.7268555,
+  sadness: 0.09205659,
+  surprise: 0.0042578103 }
+wow
+{ anger: 0.00635759067,
+  contempt: 0.05108251,
+  disgust: 0.006671097,
+  fear: 0.000186242993,
+  happiness: 0.0006046093,
+  neutral: 0.8822728,
+  sadness: 0.0515283942,
+  surprise: 0.0012967512 }
+wow
+{ anger: 0.00139738643,
+  contempt: 0.00364998449,
+  disgust: 0.00157994672,
+  fear: 0.0000429188658,
+  happiness: 0.0000173788339,
+  neutral: 0.9879887,
+  sadness: 0.00181841734,
+  surprise: 0.00350528513 }
+wow
+{ anger: 0.0030745,
+  contempt: 0.008739629,
+  disgust: 0.00291221077,
+  fear: 0.0000097170705,
+  happiness: 0.000051885625,
+  neutral: 0.9814747,
+  sadness: 0.002998986,
+  surprise: 0.0007383769 }
+wow
+{ anger: 0.00226606173,
+  contempt: 0.0115315206,
+  disgust: 0.00210804818,
+  fear: 0.00005225182,
+  happiness: 0.0000237114364,
+  neutral: 0.9758287,
+  sadness: 0.0020655368,
+  surprise: 0.006124146 }
+wow
+{ anger: 0.00483893463,
+  contempt: 0.0138854617,
+  disgust: 0.005103667,
+  fear: 0.0000467189166,
+  happiness: 0.0000225136318,
+  neutral: 0.9680552,
+  sadness: 0.00351916812,
+  surprise: 0.0045283474 }
+wow
+{ anger: 0.007541035,
+  contempt: 0.0110165132,
+  disgust: 0.00625017565,
+  fear: 0.0000498079826,
+  happiness: 0.0000385709354,
+  neutral: 0.961773157,
+  sadness: 0.0106146839,
+  surprise: 0.00271608029 }
+wow
+{ anger: 0.00343180168,
+  contempt: 0.007924895,
+  disgust: 0.00342959655,
+  fear: 0.00003200576,
+  happiness: 0.0000512134866,
+  neutral: 0.9782916,
+  sadness: 0.00493297959,
+  surprise: 0.00190592569 }
+wow
+{ anger: 0.005624159,
+  contempt: 0.010686364,
+  disgust: 0.00516271172,
+  fear: 0.0000397813128,
+  happiness: 0.000124506987,
+  neutral: 0.9631878,
+  sadness: 0.0135086756,
+  surprise: 0.0016660057 }
+wow
+{ anger: 0.0004508104,
+  contempt: 0.020563826,
+  disgust: 0.00272502936,
+  fear: 0.000126515821,
+  happiness: 0.03536876,
+  neutral: 0.7077504,
+  sadness: 0.2325721,
+  surprise: 0.0004425655 }
+wow
+{ anger: 0.00148983486,
+  contempt: 0.0143138561,
+  disgust: 0.006392042,
+  fear: 0.0002017763,
+  happiness: 0.7678201,
+  neutral: 0.195538938,
+  sadness: 0.0131053906,
+  surprise: 0.0011380174 }
+wow
+{ anger: 0.000100315505,
+  contempt: 0.0163147729,
+  disgust: 0.0005857256,
+  fear: 0.00006112511,
+  happiness: 0.327200383,
+  neutral: 0.6480996,
+  sadness: 0.004549959,
+  surprise: 0.00308810128 }
+wow
+{ anger: 0.00024650406,
+  contempt: 0.0313323773,
+  disgust: 0.000879583356,
+  fear: 0.0000314732351,
+  happiness: 0.126942143,
+  neutral: 0.827567,
+  sadness: 0.0123732248,
+  surprise: 0.0006276934 }
+wow
+{ anger: 0.004331673,
+  contempt: 0.02420261,
+  disgust: 0.0140293473,
+  fear: 0.0005856012,
+  happiness: 0.0804280862,
+  neutral: 0.8478323,
+  sadness: 0.01917888,
+  surprise: 0.00941146 }
+wow
+{ anger: 0.09072394,
+  contempt: 0.0372941867,
+  disgust: 0.07877851,
+  fear: 0.000128635744,
+  happiness: 0.00303432881,
+  neutral: 0.703323364,
+  sadness: 0.0861973539,
+  surprise: 0.000519660767 }
+wow
+{ anger: 0.218823865,
+  contempt: 0.0306366477,
+  disgust: 0.0325849354,
+  fear: 0.0000459719558,
+  happiness: 0.000472214131,
+  neutral: 0.6107669,
+  sadness: 0.106473677,
+  surprise: 0.000195789951 }
+wow
+{ anger: 0.220432386,
+  contempt: 0.0174452625,
+  disgust: 0.05048758,
+  fear: 0.000084096464,
+  happiness: 0.000341522566,
+  neutral: 0.605524361,
+  sadness: 0.105299741,
+  surprise: 0.000385060062 }
+wow
+{ anger: 0.02933544,
+  contempt: 0.0142217232,
+  disgust: 0.006377172,
+  fear: 0.00010934622,
+  happiness: 0.000798372552,
+  neutral: 0.9007718,
+  sadness: 0.0457693152,
+  surprise: 0.002616827 }
+wow
+{ anger: 0.0182256512,
+  contempt: 0.0215939116,
+  disgust: 0.0110881291,
+  fear: 0.0000203199015,
+  happiness: 0.000399701181,
+  neutral: 0.9321785,
+  sadness: 0.0154666407,
+  surprise: 0.00102714868 }
+wow
+{ anger: 0.000911796757,
+  contempt: 0.0139095606,
+  disgust: 0.00140955427,
+  fear: 0.0000479716873,
+  happiness: 0.0227986816,
+  neutral: 0.9465941,
+  sadness: 0.006392417,
+  surprise: 0.007935911 }
+wow
+{ anger: 0.0380812176,
+  contempt: 0.0215665884,
+  disgust: 0.0755277649,
+  fear: 0.00020641624,
+  happiness: 0.0469061844,
+  neutral: 0.7782238,
+  sadness: 0.0384861454,
+  surprise: 0.00100188458 }
+wow
+{ anger: 0.02859622,
+  contempt: 0.004464192,
+  disgust: 0.0102026965,
+  fear: 0.0000175242567,
+  happiness: 0.0007210449,
+  neutral: 0.9190325,
+  sadness: 0.0366818048,
+  surprise: 0.000283981266 }
+wow
+{ anger: 0.000624462962,
+  contempt: 0.0100255394,
+  disgust: 0.0001815136,
+  fear: 0.0000240509453,
+  happiness: 0.0007662091,
+  neutral: 0.9846642,
+  sadness: 0.00208031083,
+  surprise: 0.00163373619 }
+wow
+{ anger: 0.000197162313,
+  contempt: 0.0300263017,
+  disgust: 0.000306775561,
+  fear: 0.00000709256847,
+  happiness: 0.112547159,
+  neutral: 0.8528646,
+  sadness: 0.003538862,
+  surprise: 0.000512056053 }
+wow
+{ anger: 0.0116812745,
+  contempt: 0.0179703236,
+  disgust: 0.002960008,
+  fear: 0.0000549614742,
+  happiness: 0.013606743,
+  neutral: 0.932528257,
+  sadness: 0.0207887441,
+  surprise: 0.0004096657 }
+wow
+{ anger: 0.000892821932,
+  contempt: 0.000401673344,
+  disgust: 0.00171065377,
+  fear: 0.000363699946,
+  happiness: 0.984066069,
+  neutral: 0.0106905364,
+  sadness: 0.00136171025,
+  surprise: 0.000512841449 }
+wow
+{ anger: 0.0000331935771,
+  contempt: 0.00009665157,
+  disgust: 0.000157282164,
+  fear: 0.000008721002,
+  happiness: 0.996487141,
+  neutral: 0.00303733768,
+  sadness: 0.00009118381,
+  surprise: 0.00008847721 }
+wow
+{ anger: 0.00000632909359,
+  contempt: 0.00005293032,
+  disgust: 0.0000151124705,
+  fear: 0.000005644113,
+  happiness: 0.998641551,
+  neutral: 0.00122106238,
+  sadness: 0.00001647951,
+  surprise: 0.0000409203458 }
+wow
+{ anger: 0.00008230912,
+  contempt: 0.00211815326,
+  disgust: 0.000573150348,
+  fear: 0.00001808319,
+  happiness: 0.95163,
+  neutral: 0.04479978,
+  sadness: 0.00048081897,
+  surprise: 0.000297717052 }
+wow
+{ anger: 0.000515336636,
+  contempt: 0.0207482819,
+  disgust: 0.00108562468,
+  fear: 0.0000631833464,
+  happiness: 0.0347104333,
+  neutral: 0.9293872,
+  sadness: 0.0124740629,
+  surprise: 0.00101585174 }
+wow
+{ anger: 0.00752067426,
+  contempt: 0.02703757,
+  disgust: 0.00450874632,
+  fear: 0.000627346861,
+  happiness: 0.0163520444,
+  neutral: 0.875849366,
+  sadness: 0.0666009262,
+  surprise: 0.00150330458 }
+wow
+{ anger: 0.0256569255,
+  contempt: 0.0513873324,
+  disgust: 0.006578933,
+  fear: 0.00101000862,
+  happiness: 0.00386087038,
+  neutral: 0.881519258,
+  sadness: 0.0211515371,
+  surprise: 0.008835159 }
+wow
+{ anger: 0.00349312345,
+  contempt: 0.038154237,
+  disgust: 0.00565061159,
+  fear: 0.000430976157,
+  happiness: 0.0391106643,
+  neutral: 0.881613731,
+  sadness: 0.0289728642,
+  surprise: 0.00257380167 }
+wow
+{ anger: 0.001883712,
+  contempt: 0.0247328077,
+  disgust: 0.00513921166,
+  fear: 0.000475926,
+  happiness: 0.5667603,
+  neutral: 0.3848325,
+  sadness: 0.0130367549,
+  surprise: 0.003138776 }
+wow
+{ anger: 0.00198649848,
+  contempt: 0.0204999559,
+  disgust: 0.00426120637,
+  fear: 0.0004865492,
+  happiness: 0.483303,
+  neutral: 0.476174146,
+  sadness: 0.0102734109,
+  surprise: 0.00301522 }
+wow
+{ anger: 0.0664818659,
+  contempt: 0.0122942384,
+  disgust: 0.0442672558,
+  fear: 0.001002609,
+  happiness: 0.00345311314,
+  neutral: 0.519807339,
+  sadness: 0.351430237,
+  surprise: 0.00126333535 }
+wow
+{ anger: 0.0189807322,
+  contempt: 0.0138640516,
+  disgust: 0.0275386125,
+  fear: 0.000246533367,
+  happiness: 0.004091497,
+  neutral: 0.884225368,
+  sadness: 0.0484621562,
+  surprise: 0.00259105372 }
+wow
+{ anger: 0.06802425,
+  contempt: 0.02334343,
+  disgust: 0.04390891,
+  fear: 0.000155164642,
+  happiness: 0.001745406,
+  neutral: 0.7531541,
+  sadness: 0.108805634,
+  surprise: 0.0008631368 }
+wow
+{ anger: 0.00743420748,
+  contempt: 0.0205199085,
+  disgust: 0.00224527135,
+  fear: 0.00003282637,
+  happiness: 0.000119570177,
+  neutral: 0.956459343,
+  sadness: 0.0126325609,
+  surprise: 0.000556335435 }
+wow
+{ anger: 0.00220748479,
+  contempt: 0.00936868,
+  disgust: 0.00146734715,
+  fear: 0.0000258372438,
+  happiness: 0.0000775423,
+  neutral: 0.9774794,
+  sadness: 0.008273653,
+  surprise: 0.00110005552 }
+wow
+{ anger: 0.04084873,
+  contempt: 0.06585139,
+  disgust: 0.00712601,
+  fear: 0.00009413296,
+  happiness: 0.000160010473,
+  neutral: 0.869535565,
+  sadness: 0.0145821441,
+  surprise: 0.00180199347 }
+wow
+{ anger: 0.00280596712,
+  contempt: 0.1777548,
+  disgust: 0.00138846377,
+  fear: 0.00002016232,
+  happiness: 0.000121450415,
+  neutral: 0.8132316,
+  sadness: 0.00273748231,
+  surprise: 0.00194005517 }
+wow
+{ anger: 0.00530260662,
+  contempt: 0.0846701041,
+  disgust: 0.00105317181,
+  fear: 0.00003272095,
+  happiness: 0.000326095033,
+  neutral: 0.90098244,
+  sadness: 0.00694166636,
+  surprise: 0.000691175868 }
+wow
+{ anger: 0.0140120406,
+  contempt: 0.0894060656,
+  disgust: 0.00630123448,
+  fear: 0.000756064837,
+  happiness: 0.0009189167,
+  neutral: 0.8474792,
+  sadness: 0.0351196639,
+  surprise: 0.00600681128 }
+wow
+{ anger: 0.0095134,
+  contempt: 0.06861665,
+  disgust: 0.00572889159,
+  fear: 0.0003170347,
+  happiness: 0.000673170143,
+  neutral: 0.8855464,
+  sadness: 0.0246304348,
+  surprise: 0.00497403974 }
+wow
+{ anger: 0.01070344,
+  contempt: 0.008509284,
+  disgust: 0.003231732,
+  fear: 0.000185387,
+  happiness: 0.00023850883,
+  neutral: 0.96398,
+  sadness: 0.0107431281,
+  surprise: 0.00240849541 }
+wow
+{ anger: 0.009263927,
+  contempt: 0.0161880385,
+  disgust: 0.00417778967,
+  fear: 0.0003558386,
+  happiness: 0.00012376823,
+  neutral: 0.955927253,
+  sadness: 0.009747384,
+  surprise: 0.004215981 }
+wow
+{ anger: 0.00662424741,
+  contempt: 0.012689556,
+  disgust: 0.00186106039,
+  fear: 0.000469801831,
+  happiness: 0.000320333638,
+  neutral: 0.964563549,
+  sadness: 0.007994598,
+  surprise: 0.005476877 }
+wow
+{ anger: 0.008597193,
+  contempt: 0.009405026,
+  disgust: 0.00166368182,
+  fear: 0.000285916816,
+  happiness: 0.00009848245,
+  neutral: 0.9598475,
+  sadness: 0.0185808316,
+  surprise: 0.00152133754 }
+wow
+{ anger: 0.0101444814,
+  contempt: 0.008348213,
+  disgust: 0.00267244573,
+  fear: 0.00021439686,
+  happiness: 0.000185108467,
+  neutral: 0.9632185,
+  sadness: 0.0120579842,
+  surprise: 0.00315888156 }
+wow
+{ anger: 0.00222596666,
+  contempt: 0.00334914564,
+  disgust: 0.00064712757,
+  fear: 0.0000441156844,
+  happiness: 0.0000256100411,
+  neutral: 0.9888927,
+  sadness: 0.00226730388,
+  surprise: 0.00254806574 }
+wow
+{ anger: 0.00177008484,
+  contempt: 0.0130276438,
+  disgust: 0.00171889062,
+  fear: 0.00000754948042,
+  happiness: 0.000381308724,
+  neutral: 0.9758446,
+  sadness: 0.00661803735,
+  surprise: 0.0006318912 }
+wow
+{ anger: 0.0115920734,
+  contempt: 0.008973786,
+  disgust: 0.00487425132,
+  fear: 0.0008404761,
+  happiness: 0.000584683439,
+  neutral: 0.925773561,
+  sadness: 0.0430706,
+  surprise: 0.004290589 }
+wow
+{ anger: 0.004182736,
+  contempt: 0.0104909465,
+  disgust: 0.0056608934,
+  fear: 0.0000960643447,
+  happiness: 0.000492644438,
+  neutral: 0.9492399,
+  sadness: 0.0280671977,
+  surprise: 0.00176960963 }
+wow
+{ anger: 0.00141944294,
+  contempt: 0.008989946,
+  disgust: 0.00224963739,
+  fear: 0.0000494319029,
+  happiness: 0.000511481659,
+  neutral: 0.9703593,
+  sadness: 0.0151115712,
+  surprise: 0.00130917691 }
+wow
+{ anger: 0.0159173,
+  contempt: 0.011494535,
+  disgust: 0.00671884231,
+  fear: 0.000140905715,
+  happiness: 0.0003103696,
+  neutral: 0.952204645,
+  sadness: 0.009396708,
+  surprise: 0.00381672126 }
+wow
+{ anger: 0.00370265776,
+  contempt: 0.0108779641,
+  disgust: 0.00195281289,
+  fear: 0.0000167450635,
+  happiness: 0.000183127369,
+  neutral: 0.9715986,
+  sadness: 0.0114054671,
+  surprise: 0.000262574642 }
+wow
+{ anger: 0.000776510569,
+  contempt: 0.00442656176,
+  disgust: 0.0009662982,
+  fear: 0.00000634578,
+  happiness: 0.0000861561857,
+  neutral: 0.988665938,
+  sadness: 0.00480769156,
+  surprise: 0.00026451156 }
+wow
+{ anger: 0.0018926881,
+  contempt: 0.0271261055,
+  disgust: 0.0045189443,
+  fear: 0.000500519061,
+  happiness: 0.399371862,
+  neutral: 0.545319855,
+  sadness: 0.0173462089,
+  surprise: 0.003923821 }
+wow
+{ anger: 0.00006170354,
+  contempt: 0.00123181683,
+  disgust: 0.0003175616,
+  fear: 0.0000193769611,
+  happiness: 0.9864375,
+  neutral: 0.0114252856,
+  sadness: 0.000391480833,
+  surprise: 0.000115254748 }
+wow
+{ anger: 0.0005023895,
+  contempt: 0.0117645012,
+  disgust: 0.00146429811,
+  fear: 0.000172929111,
+  happiness: 0.8476013,
+  neutral: 0.132667333,
+  sadness: 0.005288006,
+  surprise: 0.0005392197 }
+wow
+{ anger: 0.0004220832,
+  contempt: 0.01373145,
+  disgust: 0.00151472865,
+  fear: 0.0000601491156,
+  happiness: 0.790797651,
+  neutral: 0.18942453,
+  sadness: 0.00363336434,
+  surprise: 0.0004160541 }
+wow
+{ anger: 0.00118445931,
+  contempt: 0.027142955,
+  disgust: 0.00841175951,
+  fear: 0.0005973976,
+  happiness: 0.402908623,
+  neutral: 0.5016924,
+  sadness: 0.0549421869,
+  surprise: 0.00312021212 }
+wow
+{ anger: 0.09987918,
+  contempt: 0.05984604,
+  disgust: 0.0091254,
+  fear: 0.00000545396642,
+  happiness: 0.00007377841,
+  neutral: 0.778974533,
+  sadness: 0.0520364121,
+  surprise: 0.00005918918 }
+wow
+{ anger: 0.00173720578,
+  contempt: 0.0123084234,
+  disgust: 0.00276613142,
+  fear: 0.000121554578,
+  happiness: 0.00240320177,
+  neutral: 0.9652879,
+  sadness: 0.0064949845,
+  surprise: 0.008880563 }
+wow
+{ anger: 0.07652977,
+  contempt: 0.0432079546,
+  disgust: 0.236517563,
+  fear: 0.00147725036,
+  happiness: 0.06492901,
+  neutral: 0.502118349,
+  sadness: 0.06563047,
+  surprise: 0.009589638 }
+wow
+{ anger: 0.00253424747,
+  contempt: 0.01876211,
+  disgust: 0.005689363,
+  fear: 0.000540048641,
+  happiness: 0.0200638548,
+  neutral: 0.90690273,
+  sadness: 0.03913669,
+  surprise: 0.006370982 }
+wow
+{ anger: 0.0008311271,
+  contempt: 0.0328136,
+  disgust: 0.00306486338,
+  fear: 0.00007669348,
+  happiness: 0.385001719,
+  neutral: 0.565814137,
+  sadness: 0.0114835585,
+  surprise: 0.0009143131 }
+wow
+{ anger: 0.00429141754,
+  contempt: 0.0139622083,
+  disgust: 0.00153817283,
+  fear: 0.0000181348751,
+  happiness: 0.00015697637,
+  neutral: 0.972266436,
+  sadness: 0.004127756,
+  surprise: 0.00363888475 }
+wow
+{ anger: 0.00712573063,
+  contempt: 0.012457124,
+  disgust: 0.0035323468,
+  fear: 0.0000362020255,
+  happiness: 0.000308793184,
+  neutral: 0.9610609,
+  sadness: 0.0143750012,
+  surprise: 0.00110392156 }
+wow
+{ anger: 0.00149702863,
+  contempt: 0.0147714512,
+  disgust: 0.000927015557,
+  fear: 0.0000145557251,
+  happiness: 0.0004956962,
+  neutral: 0.938733637,
+  sadness: 0.0431539156,
+  surprise: 0.0004066791 }
+wow
+{ anger: 0.0121772587,
+  contempt: 0.007717929,
+  disgust: 0.00136738725,
+  fear: 0.000120393954,
+  happiness: 0.00000433353944,
+  neutral: 0.8606565,
+  sadness: 0.116941549,
+  surprise: 0.001014624 }
