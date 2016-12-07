@@ -70,6 +70,10 @@ body {
   color: #000000;
 }
 
+#count_wrapper {
+  color: #6441a4;
+}
+
 @media screen and  (min-width: 1024px) {
   .wrapper-twitch {
     margin-top: 30px;
