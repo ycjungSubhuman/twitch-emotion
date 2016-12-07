@@ -36,13 +36,13 @@ function graph_init() {
       maximum: 1,
     },
     data: [
-    {type: "line", markerType: "none", lineThickness: "2", color: color_anger, dataPoints: emotions_anger},
-    {type: "line", markerType: "none", lineThickness: "2", color: color_contempt, dataPoints: emotions_contempt},
-    {type: "line", markerType: "none", lineThickness: "2", color: color_disgust, dataPoints: emotions_disgust},
-    {type: "line", markerType: "none", lineThickness: "2", color: color_fear, dataPoints: emotions_fear},
-    {type: "line", markerType: "none", lineThickness: "2", color: color_happiness, dataPoints: emotions_happiness},
-    {type: "line", markerType: "none", lineThickness: "2", color: color_sadness, dataPoints: emotions_sadness},
-    {type: "line", markerType: "none", lineThickness: "2", color: color_surprise, dataPoints: emotions_surprise},
+    {type: "line", showInLegend: true, legendText: "Angry", markerType: "none", lineThickness: "2", color: color_anger, dataPoints: emotions_anger},
+    {type: "line", showInLegend: true, legendText: "Contempt", markerType: "none", lineThickness: "2", color: color_contempt, dataPoints: emotions_contempt},
+    {type: "line", showInLegend: true, legendText: "Disgust",  markerType: "none", lineThickness: "2", color: color_disgust, dataPoints: emotions_disgust},
+    {type: "line", showInLegend: true, legendText: "Fear",  markerType: "none", lineThickness: "2", color: color_fear, dataPoints: emotions_fear},
+    {type: "line", showInLegend: true, legendText: "Happiness", markerType: "none", lineThickness: "2", color: color_happiness, dataPoints: emotions_happiness},
+    {type: "line", showInLegend: true, legendText: "Sadness", markerType: "none", lineThickness: "2", color: color_sadness, dataPoints: emotions_sadness},
+    {type: "line", showInLegend: true, legendText: "Surprise", markerType: "none", lineThickness: "2", color: color_surprise, dataPoints: emotions_surprise},
     ]
   });
 }

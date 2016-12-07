@@ -11,6 +11,7 @@ function smiley_init() {
 }
 
 function ui_step() {
+  console.log("step");
   img.setAttribute("src", "img/smiley_" + get_dominating_emotion() + ".png");
   emotionIntensity = get_dominating_value();
   
