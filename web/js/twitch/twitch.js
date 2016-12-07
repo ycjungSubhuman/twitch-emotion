@@ -5,6 +5,7 @@ const T = {
       if(status.authenticated) {
         $('#twitch_wrapper').show();
         $('#metadata_wrapper').show();
+        $('.channel').show();
         $('#login_request').hide();
         $('#login').hide();
       }
