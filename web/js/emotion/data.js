@@ -51,13 +51,23 @@ function updateEmotion(emotion) {
 	socket.on('news', function (data) {
 		socket.emit('my other event', emotion);
 	});            
-	socket.on('get_emotion', function (data) {
-		ii = data;
-		console.log('ss');
-		console.log(ii);
-		ui_step();
-	});                 
 }
+
+function init_fetch() {
+	setInterval(function() {
+		var socket = io.connect('itrustgreen.ze.am:8888');
+		socket.on('news', function (data) {
+			socket.emit('get_current_emotion');
+		});            
+		socket.on('get_emotion', function (data) {
+			ii = data;
+			console.log('ss');
+			console.log(ii);
+			ui_step();
+		});                 
+	}, 1000);
+}
+
 
 
 function get_emotion_data() {

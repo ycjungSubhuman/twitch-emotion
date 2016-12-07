@@ -1,7 +1,7 @@
 const Cam = {
   init: function() {
     Webcam.attach('#camera'); 
-    $("#snapshot").click(function() { setInterval(on_cam, 4000); $("#snapshot").hide(); });
+    $("#snapshot").click(function() { setInterval(on_cam, 5000); $("#snapshot").hide(); });
   }
 }
 
