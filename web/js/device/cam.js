@@ -1,7 +1,11 @@
 const Cam = {
   init: function() {
     Webcam.attach('#camera'); 
-    $('#snapshot').click(function() {
+    $("#snapshot").click(function() { setInterval(on_cam, 4000); $("#snapshot").hide(); });
+  }
+}
+
+function on_cam() {
       Webcam.snap(function(data_uri) {
         var img = document.createElement('img');
         img.setAttribute("src", data_uri);
@@ -23,8 +27,7 @@ const Cam = {
           }
         });
       });
-    });
-  }
+
 }
 
 function dataURItoBlob(dataURI) {

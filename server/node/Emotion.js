@@ -40,7 +40,7 @@ io.sockets.on('connection', function (socket) {
 		console.log(data);
 		add(data);
 		addtoArray(data);
-		socket.emit('get_emotion', data);
+		socket.emit('get_emotion', emotions);
 	});
 
 	socket.on('show', function(){
