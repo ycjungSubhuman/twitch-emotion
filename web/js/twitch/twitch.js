@@ -3,11 +3,13 @@ const T = {
     Twitch.init({clientId: 'a6he265cackgwqtc89gzqfivu5yn3n6'}, function(error, status) {
       if(error) console.log(error);
       if(status.authenticated) {
+        console.log(status);
         $('#twitch_wrapper').show();
         $('#metadata_wrapper').show();
         $('.channel').show();
         $('#login_request').hide();
         $('#login').hide();
+	init_screen();
       }
     });
     $('#login').click(function() {
@@ -21,12 +23,26 @@ const T = {
     $('#chat')
       .empty()
       .append(get_twitch_chat_iframe(username));
+    if(this.user == username) {
+      $('#metadata_wrapper').show();
+    }
+    else {
+      $('#metadata_wrapper').hide();
+    }
   },
+  user: "",
 };
 
 function _request_auth() {
   Twitch.login({
     scope: ['user_read', 'channel_read'],
+  });
+}
+
+function init_screen() {
+  Twitch.api({mathod: ''}, function(error, result) {
+    T.user = result.token.user_name;
+    T.get(T.user);
   });
 }
 
