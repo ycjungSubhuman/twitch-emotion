@@ -83,40 +83,28 @@ io.sockets.on('connection', function (socket) {
 });
 
 
+var past = new Object();
+var SIZE = 3;
 
 function add(data)
 {
-	emotions.anger += data.anger;
-	emotions.contempt += data.contempt;
-	emotions.fear += data.fear;
-	emotions.happiness += data.happiness;
-	emotions.sadness += data.sadness;
-	emotions.disgust += data.disgust;
-	emotions.surprise += data.surprise;
+	past.anger = emotions.anger;
+	past.contempt = emotions.contempt;
+	past.fear = emotions.fear;
+	past.happiness = emotions.happiness;
+	past.sadness = emotions.sadness;
+	past.disgust = emotions.disgust;
+	past.surprise = emotions.surprise;
+
 	num++;	
-	
-	var temp = new Object();
-	
-	temp.anger = data.anger;
-	temp.contempt = data.contempt;
-	temp.fear = data.fear;
-	temp.happiness = data.happiness;
-	temp.sadness = data.sadness;
-	temp.disgust = data.disgust;
-	temp.surprise = data.surprise;
-
-	setTimeout(function(data){
-
-	emotions.anger -= temp.anger;
-	emotions.contempt -= temp.contempt;
-	emotions.fear -= temp.fear;
-	emotions.happiness -= temp.happiness;
-	emotions.sadness -= temp.sadness;
-	emotions.disgust -= temp.disgust;
-	emotions.surprise -= temp.surprise;
-	num--;	
-	}, 3000);
-		
+	var tail = getMostPastData();
+	emotions.anger = past.anger + data.anger/SIZE - tail.anger/SIZE;
+	emotions.contempt = past.contempt + data.contempt/SIZE - tail.contempt/SIZE;
+	emotions.fear = past.fear + data.fear/SIZE - tail.fear/SIZE;
+	emotions.happiness = past.happiness + data.happiness/SIZE - tail.happiness/SIZE;
+	emotions.sadness = past.sadness + data.sadness/SIZE - tail.sadness/SIZE;
+	emotions.disgust = past.disgust + data.disgust/SIZE - tail.disgust/SIZE;
+	emotions.surprise = past.surprise + data.surprise/SIZE - tail.surprise/SIZE;
 }
 
 
@@ -126,10 +114,23 @@ var LOG = {};
 
 setInterval(function() { c_time++;}, 300);
 
+function getMostPastData() {
+	if(LOG[num - SIZE]) return LOG[num - SIZE];
+	else return {
+		anger: 0,
+		contempt:0,
+		fear: 0,
+		happiness: 0,
+		sadness: 0,
+		disgust: 0,
+		surprise: 0
+	};
+}
+
 
 function addtoArray(data)
 {
-	LOG[c_time] = new Object(data);
+	LOG[num] = new Object(data);
 }
 
 
